@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: tidbitoled
+      url-base: https://github.com/robdog77/tidbit/tree/master/keymaps/oledpet
+  projects:
+    - name: tidbitoled
+      remote: tidbit
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
